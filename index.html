@@ -1,11 +1,17 @@
 <!DOCTYPE html>  
 <html>  
 <head>  
- <title>My Website</title>  
+ <title>My Blog</title>  
  <style>  
  body {  
  background-color: #f2f2f2;  
  font-family: Arial, sans-serif;  
+ }  
+  
+ .container {  
+ max-width: 800px;  
+ margin: 0 auto;  
+ padding: 20px;  
  }  
   
  h1 {  
@@ -20,26 +26,41 @@
  margin: 20px;  
  }  
   
- ul {  
- list-style-type: none;  
- margin: 0;  
- padding: 0;  
+ .post {  
+ margin-bottom: 40px;  
  }  
   
- li {  
- display: inline-block;  
- margin-right: 10px;  
+ .post-title {  
+ font-size: 20px;  
+ font-weight: bold;  
+ margin-bottom: 10px;  
+ }  
+  
+ .post-date {  
+ font-size: 14px;  
+ color: #999999;  
+ margin-bottom: 10px;  
+ }  
+  
+ .post-content {  
+ margin-bottom: 20px;  
  }  
  </style>  
 </head>  
 <body>  
- <h1>Welcome to My Website</h1>  
- <p>This is a paragraph of text. It's just a simple example of an index page.</p>  
- <ul>  
- <li><a href="#">Home</a></li>  
- <li><a href="#">About</a></li>  
- <li><a href="#">Services</a></li>  
- <li><a href="#">Contact</a></li>  
- </ul>  
+ <div class="container">  
+ <h1>Welcome to My Blog</h1>  
+ <p>Here are the latest posts:</p>  
+ <div class="post">  
+ <h2 class="post-title">Post Title</h2>  
+ <p class="post-date">Date</p>  
+ <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctoritEXTENSIONIBUS est, LOLUTAMURIBUS vero ei. Neque porro quisquam nonumy eosum, hic multam Rerum断裂confertam atque幺幺 decemviris. Neque porro quisquam nonumy eosum, hic multam Rerum断裂confertam atque幺幺 decemviris.</p>  
+ </div>  
+ <div class="post">  
+ <h2 class="post-title">Another Post Title</h2>  
+ <p class="post-date">Another Date</p>  
+ <p class="post-content">Here is another post content. You can add multiple posts as needed.</p>  
+ </div>  
+ </div>  
 </body>  
 </html>
